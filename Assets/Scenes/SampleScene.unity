@@ -852,6 +852,7 @@ GameObject:
   - component: {fileID: 321414451}
   - component: {fileID: 321414456}
   - component: {fileID: 321414457}
+  - component: {fileID: 321414458}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -1020,6 +1021,19 @@ MonoBehaviour:
   health: 100
   healthBar: {fileID: 278665764}
   deathEffect: {fileID: 5100854601042598504, guid: 316b63ec7d06250428f495ebcde21122, type: 3}
+--- !u!114 &321414458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321414450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b406ac89535fe7544be4e3afc4245c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 321414454}
 --- !u!1 &462683511
 GameObject:
   m_ObjectHideFlags: 0
